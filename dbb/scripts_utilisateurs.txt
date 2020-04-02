@@ -1,0 +1,8 @@
+GRANT ALL PRIVILEGES ON *.* TO 'superAdmin'@'%superadmin' WITH GRANT OPTION;
+
+GRANT ALL PRIVILEGES ON `superadmin\_%`.* TO 'superAdmin'@'superadmin';
+
+
+GRANT SELECT, INSERT, UPDATE, DELETE, FILE ON *.* TO 'admin'@'admin';
+
+GRANT SELECT, INSERT, UPDATE, DELETE ON *.* TO 'client'@'client';
